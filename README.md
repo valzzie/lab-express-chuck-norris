@@ -96,7 +96,6 @@ client.getRandomJoke()
   });
 ```
 
-
 ## Iteration 2 - Get a joke by category
 
 ### The Categories List
@@ -123,8 +122,8 @@ client.getJokeCategories()
 
 Each category should be a link. When a user clicks one of them, they should be sent to the category page. For example:
 
-- If the user clicks on `dev`, they should be taken to http://localhost:3000/categories/dev
-- If the user clicks on `sport`, they should be taken to http://localhost:3000/categories/sport
+- If the user clicks on `dev`, they should be taken to http://localhost:3000/categories?cat=dev
+- If the user clicks on `sport`, they should be taken to http://localhost:3000/categories?cat=sport
 
 Set the `href` of your anchor tags to match that.
 
