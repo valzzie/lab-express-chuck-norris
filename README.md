@@ -36,7 +36,7 @@ Please, push every file needed to make your app properly on GitHub before creati
 
 [Chuck Norris](https://en.wikipedia.org/wiki/Chuck_Norris) is a famous actor and martial artist that starred in many American movies in the '80s and '90s.
 
-![Chuck Norris Picture](https://i.imgur.com/hAmRT5L.jpg =300x)
+![Chuck Norris Picture](https://i.imgur.com/hAmRT5L.jpg)
 
 After his film career died off, the *people of the internet* turned him into a living meme. [Chuck Norris Facts](https://en.wikipedia.org/wiki/Chuck_Norris_facts) quickly became all the rage. These "facts" are just hyperbolic jokes on the skills of Chuck Norris.
 
@@ -95,6 +95,7 @@ client.getRandomJoke()
     // handle error
   });
 ```
+
 
 ## Iteration 2 - Get a joke by category
 
