@@ -1,1 +1,10 @@
-<h1>SEARCH</h1>
+<h2>Joke result by Keyword</h2>
+
+<p> The Keyword Selected:  <%= keyWord %> </p>
+
+<ol>
+  <!-- //jokeArray represents the jokeObject.items, someJoke is each individual joke object and we only care about the value -->
+  <% jokeArray.forEach((someJoke) => { %>
+    <li> <%= someJoke.value %> </li>
+  <% }); %>
+</ol>
